@@ -13,6 +13,7 @@
 		CC40612E1EFD20AB00F4BD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC40612D1EFD20AB00F4BD19 /* Assets.xcassets */; };
 		CC4061311EFD20AB00F4BD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC40612F1EFD20AB00F4BD19 /* LaunchScreen.storyboard */; };
 		CCE75B1D1EFD392A0065F630 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE75B191EFD353C0065F630 /* CoreImage.framework */; };
+		CCE75B1F1EFD68E10065F630 /* PhotoOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE75B1E1EFD68E10065F630 /* PhotoOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CC4061301EFD20AB00F4BD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC4061321EFD20AB00F4BD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCE75B191EFD353C0065F630 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		CCE75B1E1EFD68E10065F630 /* PhotoOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				CC40612D1EFD20AB00F4BD19 /* Assets.xcassets */,
 				CC40612F1EFD20AB00F4BD19 /* LaunchScreen.storyboard */,
 				CC4061321EFD20AB00F4BD19 /* Info.plist */,
+				CCE75B1E1EFD68E10065F630 /* PhotoOperations.swift */,
 			);
 			path = ClassicPhotos;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				CC4061291EFD20AB00F4BD19 /* ListViewController.swift in Sources */,
 				CC4061271EFD20AB00F4BD19 /* AppDelegate.swift in Sources */,
+				CCE75B1F1EFD68E10065F630 /* PhotoOperations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
